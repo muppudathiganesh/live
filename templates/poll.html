@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Live Poll: Do you support this proposal?</h2>
+  <form method="POST">
+    <label><input type="radio" name="choice" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="choice" value="No"> No</label><br>
+    <label><input type="radio" name="choice" value="Maybe"> Maybe</label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}

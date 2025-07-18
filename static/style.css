@@ -1,0 +1,16 @@
+.yes {
+  color: green;
+  font-weight: bold;
+}
+.no {
+  color: red;
+  font-weight: bold;
+}
+.maybe {
+  color: orange;
+  font-weight: bold;
+}
+.invalid {
+  color: gray;
+  font-style: italic;
+}
